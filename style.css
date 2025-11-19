@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    background-color: #c5c5c5;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: #d9eaf7;
+    margin: 20px auto;
+    padding: 20px;   
+}
+
+h1, h2 {
+    color: #005b96;
+    text-align: center;
+}
+
+#introduccion {
+    width: 80%;
+}
+
+.resaltar {
+    background-color: beige;
+    font-weight: bold;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+#introduccion img {
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+    height: auto;
+}
+
+#requisitos {
+    width: 90%;
+}
+
+#requisitos table {
+    width: 100%;
+    border-width: 0px;
+}
+
+#requisitos th {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#requisitos td {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.fila-impar {
+    background-color: #dadada;
+}
+
+.fila-par {
+    background-color: #f2f2f2;
+}
